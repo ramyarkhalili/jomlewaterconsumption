@@ -1,0 +1,91 @@
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url('fonts/webfonts/Vazirmatn[wght].woff2') format('woff2 supports variations'),
+       url('fonts/webfonts/Vazirmatn[wght].woff2') format('woff2-variations');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+.farsi {
+    font-family: Vazirmatn;
+    direction: rtl;
+}
+
+#quarto-margin-sidebar {
+    direction: rtl !important;
+    text-align: right !important;
+}
+
+.navbar-container {
+    direction: rtl;
+}
+
+#title-block-header{
+    direction: rtl !important;
+}
+
+section{
+    direction: rtl;
+}
+
+td {
+    font-size: medium;
+}
+
+#title-block-header{
+    font-family: 'Vazirmatn';
+    direction: rtl !important;
+}
+.anchored {
+    font-family: 'Vazirmatn';
+    direction: rtl !important;
+}
+
+.sourceCode{
+    direction: ltr;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background-color: #444;
+  }
+
+
+  tr:hover {
+  background-color: #292929; /* Slightly lighter on hover */
+  }
+
+
+  /* Responsive adjustments (example) */
+  @media screen and (max-width: 600px) {
+  th, td {
+  padding: 8px;
+  font-size: 0.9em;
+  }
+  }
+
+  /* Success color for hover */
+  tr:hover {
+  background-color: #28a745; /* Bootstrap's success color (green) */
+  color: #fff; /* Ensure text is readable on the green background */
+  }
+
+  th, td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #333; /* Darker border */
+  color: #fff;
+  }
+
+.dropdown-item{
+    direction: rtl !important;
+    text-align: right !important;
+}
+
+.list-unstyled{
+    direction: rtl !important;
+    text-align: right !important;
+}
